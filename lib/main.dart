@@ -10,7 +10,7 @@ import 'player_progress/player_progress.dart';
 import 'router.dart';
 import 'settings/settings.dart';
 import 'style/palette.dart';
-
+/*kenneth: binago ko lang bg sa menu tas music */
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Flame.device.setLandscape();
