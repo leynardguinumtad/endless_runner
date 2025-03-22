@@ -87,7 +87,7 @@ class _InstructionsDialogState extends State<InstructionsDialog> {
                       const Flexible(
                         flex: 7,
                         child: Text(
-                          'You have to save as many Embers as possible to clear the level.',
+                          'You have to collect as many banana as possible to clear the level.',
                         ),
                       ),
                       const SizedBox(width: 20),
@@ -124,7 +124,7 @@ class _InstructionsDialogState extends State<InstructionsDialog> {
                       const Flexible(
                         flex: 6,
                         child: Text(
-                          'Watch out for these, they will make you drop your Embers.',
+                          'Watch out for these, they will make you drop your bananas.',
                         ),
                       )
                     ],

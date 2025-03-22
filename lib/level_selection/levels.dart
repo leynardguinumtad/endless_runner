@@ -1,12 +1,12 @@
 const gameLevels = <GameLevel>[
   (
     number: 1,
-    winScore: 3,
+    winScore: 5,
     canSpawnTall: false,
   ),
   (
     number: 2,
-    winScore: 5,
+    winScore: 10,
     canSpawnTall: true,
   ),
 ];

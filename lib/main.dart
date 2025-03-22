@@ -1,4 +1,4 @@
-import 'package:flame/flame.dart';
+   import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nes_ui/nes_ui.dart';
@@ -10,7 +10,7 @@ import 'player_progress/player_progress.dart';
 import 'router.dart';
 import 'settings/settings.dart';
 import 'style/palette.dart';
-/*kenneth: binago ko lang bg sa menu tas music */
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Flame.device.setLandscape();
@@ -32,7 +32,7 @@ class MyGame extends StatelessWidget {
           // Set up audio.
           ProxyProvider2<SettingsController, AppLifecycleStateNotifier,
               AudioController>(
-            // Ensures that music starts immediately.
+            // Ensures that music starts immediately. 
             lazy: false,
             create: (context) => AudioController(),
             update: (context, settings, lifecycleNotifier, audio) {
